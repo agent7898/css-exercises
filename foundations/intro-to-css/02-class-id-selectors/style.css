@@ -1,0 +1,19 @@
+.odd-tags{
+    background-color: rgb(255, 182, 193);
+    font-family:'Verdana','DejaVu Sans',sans-serif;
+}
+
+#tag-2{
+    color: rgb(0, 0, 251);
+    font-size: 36px;
+}
+
+.odd-tags.tag-3{
+    font-size: 24px;
+}
+
+#tag-4{
+    background-color: rgb(109, 229, 151);
+    font-size: 24px;
+    font-weight: bold;
+}
