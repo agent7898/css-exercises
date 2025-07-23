@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Remove bullets from list items */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove color and underline from links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
@@ -23,4 +38,40 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+.footer{
+  background: #eeeeee;
+  align-items: baseline;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+.header,
+.footer,
+.left-links,
+.right-links {
+  margin: 0;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
